@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-parent-ssm/common-parent-ssm.iml" filepath="$PROJECT_DIR$/common-parent-ssm/common-parent-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/e3-mall.iml" filepath="$PROJECT_DIR$/.idea/e3-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-manager/e3-manager.iml" filepath="$PROJECT_DIR$/e3-manager/e3-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-manager-web/e3-manager-web.iml" filepath="$PROJECT_DIR$/e3-manager-web/e3-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-manager/manager-dao/manager-dao.iml" filepath="$PROJECT_DIR$/e3-manager/manager-dao/manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-manager/manager-interface/manager-interface.iml" filepath="$PROJECT_DIR$/e3-manager/manager-interface/manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-manager/manager-service/manager-service.iml" filepath="$PROJECT_DIR$/e3-manager/manager-service/manager-service.iml" />
+    </modules>
+  </component>
+</project>

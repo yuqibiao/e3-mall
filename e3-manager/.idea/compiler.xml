@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-utils" />
+        <module name="crm-dao" />
+        <module name="crm-service" />
+        <module name="crm-web" />
+        <module name="manager-dao" />
+        <module name="manager-service" />
+        <module name="manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-parent-ssm" target="1.8" />
+      <module name="common-utils" target="1.5" />
+      <module name="crm-dao" target="1.8" />
+      <module name="crm-manager" target="1.8" />
+      <module name="crm-service" target="1.8" />
+      <module name="crm-web" target="1.8" />
+      <module name="manager-dao" target="1.8" />
+      <module name="manager-service" target="1.8" />
+      <module name="manager-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

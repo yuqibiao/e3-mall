@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../common-parent-ssm/common-parent-ssm.iml" filepath="$PROJECT_DIR$/../common-parent-ssm/common-parent-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../common-utils/common-utils.iml" filepath="$PROJECT_DIR$/../common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-manager.iml" filepath="$PROJECT_DIR$/crm-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-dao/crm-dao.iml" filepath="$PROJECT_DIR$/manager-dao/crm-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-service/crm-service.iml" filepath="$PROJECT_DIR$/manager-service/crm-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-web/crm-web.iml" filepath="$PROJECT_DIR$/manager-web/crm-web.iml" />
+    </modules>
+  </component>
+</project>
