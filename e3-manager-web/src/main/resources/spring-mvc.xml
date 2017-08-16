@@ -18,6 +18,6 @@
         <property name="suffix" value=".jsp" />
     </bean>
     <!-- 解决静态资源无法被springMVC处理的问题 -->
-   <!-- <mvc:default-servlet-handler />-->
+    <mvc:default-servlet-handler />
 
 </beans>
