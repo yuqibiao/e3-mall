@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yyyu.manager.dao.UserMenuMapper">
+    <resultMap id="BaseResultMap" type="com.yyyu.manager.pojo.TbMenuRes">
+        <id column="menu_id" property="menuId" jdbcType="INTEGER"/>
+        <result column="menu_icon" property="menuIcon" jdbcType="VARCHAR"/>
+        <result column="menu_url" property="menuUrl" jdbcType="VARCHAR"/>
+        <result column="menu_title" property="menuTitle" jdbcType="VARCHAR"/>
+        <result column="parent_id" property="parentId" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <select id="getUserMenuByUserId" resultMap="BaseResultMap" parameterType="long">
+select tb_menu_res.*from tb_role,tb_menu_res,tb_role_menu
+where tb_role.role_id = tb_role_menu.role_id and tb_menu_res.menu_id = tb_role_menu.menu_id
+and tb_role.role_id in
+(select tb_user_role.role_id
+from tb_user_role , tb_user
+ where tb_user_role.user_id=tb_user.id and tb_user.id=#{value});
+    </select>
+
+    <select id="getChildMenuByParentId" resultMap="BaseResultMap" parameterType="long">
+        select tb_menu_res.*from tb_role,tb_menu_res,tb_role_menu
+        where tb_role.role_id = tb_role_menu.role_id and tb_menu_res.menu_id = tb_role_menu.menu_id
+        and tb_role.role_id in
+        (select tb_user_role.role_id
+        from tb_user_role , tb_user
+        where tb_user_role.user_id=tb_user.id and tb_user.id=#{value});
+    </select>
+
+</mapper>

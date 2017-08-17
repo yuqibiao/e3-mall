@@ -10,6 +10,7 @@
         <module name="e3-manager-web" />
         <module name="manager-dao" />
         <module name="manager-interface" />
+        <module name="manager-pojo" />
         <module name="manager-service" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="e3-manager-web" target="1.8" />
       <module name="manager-dao" target="1.8" />
       <module name="manager-interface" target="1.8" />
+      <module name="manager-pojo" target="1.8" />
       <module name="manager-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

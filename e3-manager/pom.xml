@@ -15,6 +15,7 @@
         <module>manager-dao</module>
         <module>manager-service</module>
         <module>manager-interface</module>
+        <module>manager-pojo</module>
     </modules>
 
     <dependencies>

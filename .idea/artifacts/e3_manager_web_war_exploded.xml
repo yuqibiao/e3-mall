@@ -13,6 +13,9 @@
           <element id="archive" name="manager-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="manager-dao" />
           </element>
+          <element id="archive" name="manager-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="manager-pojo" />
+          </element>
           <element id="archive" name="manager-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="manager-interface" />
           </element>

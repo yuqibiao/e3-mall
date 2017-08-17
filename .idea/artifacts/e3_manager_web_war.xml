@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-ear" name="e3-manager-web:war">
+  <artifact type="war" name="e3-manager-web:war">
     <output-path>$PROJECT_DIR$/e3-manager-web/target</output-path>
-    <root id="root">
+    <root id="archive" name="e3-manager-web-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="e3-manager-web:war exploded" />
     </root>
   </artifact>

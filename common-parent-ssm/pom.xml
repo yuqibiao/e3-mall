@@ -210,7 +210,7 @@
                 <version>2.1</version>
                 <configuration>
                     <!-- 可以灵活配置工程路径 -->
-                    <path>/ssh</path>
+                    <path>/e3mall</path>
                     <!-- 可以灵活配置端口号 -->
                     <port>8080</port>
                 </configuration>

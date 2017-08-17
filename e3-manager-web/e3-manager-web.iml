@@ -27,6 +27,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="manager-service" />
     <orderEntry type="module" module-name="manager-dao" />
+    <orderEntry type="module" module-name="manager-pojo" />
     <orderEntry type="module" module-name="manager-interface" />
     <orderEntry type="module" module-name="common-utils" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" level="project" />
